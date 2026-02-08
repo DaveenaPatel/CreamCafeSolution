@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="totalCostLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;financeLabel.Name" xml:space="preserve">
+    <value>financeLabel</value>
+  </data>
+  <data name="&gt;&gt;totalCostTextBox.Name" xml:space="preserve">
+    <value>totalCostTextBox</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grossProfitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 522</value>
+  </data>
+  <data name="&gt;&gt;costOfGoodsTextBox.Name" xml:space="preserve">
+    <value>costOfGoodsTextBox</value>
+  </data>
+  <data name="totalCostLabel.Text" xml:space="preserve">
+    <value>Total Cost:</value>
+  </data>
+  <data name="revenueTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="costOfGoodsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>928, 144</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="totalCostTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="netProfitbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="resultTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;operatingExpensesLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="financeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 36</value>
+  </data>
+  <data name="operatingExpensesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="&gt;&gt;costOfGoodsTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="costOfGoodslabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 36</value>
+  </data>
+  <data name="costOfGoodsTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="costOfGoodslabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 144</value>
+  </data>
+  <data name="&gt;&gt;resultTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;revenueLabel.Name" xml:space="preserve">
+    <value>revenueLabel</value>
+  </data>
+  <data name="&gt;&gt;resultTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="netProfitbutton.Text" xml:space="preserve">
+    <value>Net Profit</value>
+  </data>
+  <data name="&gt;&gt;revenueTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="operatingExpensesTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 36</value>
+  </data>
+  <data name="operatingExpensesTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;totalCostLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="revenueTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="revenueLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="totalCostLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="totalCostLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;operatingExpensesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="operatingExpensesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;costOfGoodslabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="totalCostTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 36</value>
+  </data>
+  <data name="netProfitbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 522</value>
+  </data>
+  <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 12</value>
+  </data>
+  <data name="&gt;&gt;totalCostTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;costOfGoodsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="operatingExpensesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 36</value>
+  </data>
+  <data name="revenueTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="financeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="totalCostLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 307</value>
+  </data>
+  <data name="&gt;&gt;totalCostTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="backButton.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="costOfGoodslabel.Text" xml:space="preserve">
+    <value>Cost Of Goods Sold:</value>
+  </data>
+  <data name="costOfGoodsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="costOfGoodslabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="operatingExpensesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>928, 214</value>
+  </data>
+  <data name="&gt;&gt;operatingExpensesTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FinanceForm</value>
+  </data>
+  <data name="revenueLabel.Text" xml:space="preserve">
+    <value>Revenue:</value>
+  </data>
+  <data name="operatingExpensesTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="netProfitbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 59</value>
+  </data>
+  <data name="&gt;&gt;operatingExpensesTextBox.Name" xml:space="preserve">
+    <value>operatingExpensesTextBox</value>
+  </data>
+  <data name="resultTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 615</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="&gt;&gt;grossProfitButton.Name" xml:space="preserve">
+    <value>grossProfitButton</value>
+  </data>
+  <data name="grossProfitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="netProfitbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 59</value>
+  </data>
+  <data name="&gt;&gt;grossProfitButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="totalCostLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 36</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="totalCostTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 307</value>
+  </data>
+  <data name="&gt;&gt;grossProfitButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="resultTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="costOfGoodsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 36</value>
+  </data>
+  <data name="revenueTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 36</value>
+  </data>
+  <data name="totalCostTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;financeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="revenueLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;netProfitbutton.Name" xml:space="preserve">
+    <value>netProfitbutton</value>
+  </data>
+  <data name="costOfGoodslabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;netProfitbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="resultTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;netProfitbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="operatingExpensesLabel.Text" xml:space="preserve">
+    <value>Operating Expenses:</value>
+  </data>
+  <data name="costOfGoodsTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;operatingExpensesLabel.Name" xml:space="preserve">
+    <value>operatingExpensesLabel</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="totalCostTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;resultTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="backButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 59</value>
+  </data>
+  <data name="financeLabel.Text" xml:space="preserve">
+    <value>Finance</value>
+  </data>
+  <data name="backButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;netProfitbutton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;costOfGoodsTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;revenueLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="revenueLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="costOfGoodslabel.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;operatingExpensesTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;operatingExpensesTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="financeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FinanceForm</value>
+  </data>
+  <data name="revenueLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 36</value>
+  </data>
+  <data name="&gt;&gt;operatingExpensesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grossProfitButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="&gt;&gt;revenueLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="financeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1098, 686</value>
+  </data>
+  <data name="revenueTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 177</value>
+  </data>
+  <data name="&gt;&gt;revenueTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resultTextBox.Name" xml:space="preserve">
+    <value>resultTextBox</value>
+  </data>
+  <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 19.8pt</value>
+  </data>
+  <data name="grossProfitButton.Text" xml:space="preserve">
+    <value>Gross Profit</value>
+  </data>
+  <data name="operatingExpensesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="operatingExpensesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 214</value>
+  </data>
+  <data name="&gt;&gt;costOfGoodslabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;revenueTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="financeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;financeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="grossProfitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 59</value>
+  </data>
+  <data name="&gt;&gt;revenueLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="resultTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 59</value>
+  </data>
+  <data name="revenueLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 177</value>
+  </data>
+  <data name="operatingExpensesTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;grossProfitButton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;revenueTextBox.Name" xml:space="preserve">
+    <value>revenueTextBox</value>
+  </data>
+  <data name="&gt;&gt;backButton.Name" xml:space="preserve">
+    <value>backButton</value>
+  </data>
+  <data name="&gt;&gt;totalCostLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;totalCostTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;costOfGoodslabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>818, 404</value>
+  </data>
+  <data name="&gt;&gt;totalCostLabel.Name" xml:space="preserve">
+    <value>totalCostLabel</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="&gt;&gt;totalCostLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;financeLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;costOfGoodslabel.Name" xml:space="preserve">
+    <value>costOfGoodslabel</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>es</value>
+  </metadata>
+</root>
